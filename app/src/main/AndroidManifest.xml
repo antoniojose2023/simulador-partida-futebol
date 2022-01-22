@@ -10,10 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SimuladorPartidaFutebol">
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.DetalhesActivity"
             android:exported="false" />
         <activity
-            android:name=".DetalhesActivity"
+            android:name=".ui.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
